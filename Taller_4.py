@@ -239,7 +239,7 @@ class Taller_4():
                                         print('===========================================================')
                                         print(self.Paciente.Error)
                                 if Posicion == 2:
-                                    print('===========================================================')
+                                   
                                     print('INGRESE NOMBRE DEL PACIENTE ', contadorpacientes + 1)
                                     Nombre = input('R/= ')
                                     if self.Paciente.Validar('NOMBRE', Nombre):
@@ -312,13 +312,13 @@ class Taller_4():
                     self.Paciente.evaluar()
 
                 else:
-                    print('===========================================================')
+                  
                     print(self.Paciente.Error)
 
 
                 validarentrad_3 = True
                 while validarentrad_3:
-                    print('==================================================')
+                   
                     print('PORFAVOR ELIJA UNA OPCION')
                     opcion = input('1. VOLVER A INGRESAR PACIENTE(S), 2. VOLVER AL MENU DE INICIO (R/= ')
                     if opcion == '1':
