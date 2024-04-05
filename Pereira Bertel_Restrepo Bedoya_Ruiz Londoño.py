@@ -72,7 +72,7 @@ while Estado_Menu == True:
                             print('===============================================================')
                             print("NO SE PUEDE CALCULAR EL FACTORIAL")
                             print('PORFAVOR INGRESE NUEVAMENTE EL DATO ')
-                    except:
+                    except  BaseException as e:
                         print('===============================================================')
                         print('INGRESO EL CAMPO DE FORMA ERRONEA ')
                         print('PORFAVOR INGRESE NUEVAMENTE EL DATO ')
